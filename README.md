@@ -11,9 +11,9 @@ Features
 4. Implement swagger doc for api endpoints
 
 # Steps To access
- 1 Do npm i 
- 2.use .env File
- 3 npm start
+ STEP ONE=> Do npm i...
+ STEP TWO => use .env File...
+ STEP THREE => npm start
  
  # Project VideoExpaination link => https://drive.google.com/drive/folders/1tO4AgnWjyzqy4WUznuHRpUOHe0Y_7Zh_?usp=sharing
  
