@@ -1,22 +1,29 @@
 const mongoose = require("mongoose");
+const ObjectId = mongoose.Schema.Types.ObjectId;
 
 const productSchema = new mongoose.Schema(
   {
     name: {
         type: String,
         required: true,
-        unique: true,
       },
-      description: {
+      userId:{
+        type:ObjectId,
+        ref:"user",
+        required:true
+      },    
+      category: {
         type: String,
         required: true,
-        unique: true,
       },
       price: {
         type: Number,
         required: true,
       },
-    
+    // isDeleted:{
+    //   type:Boolean,
+    //   default:false
+    // }
     },
   { timestamps: true }
 );
